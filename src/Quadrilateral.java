@@ -16,8 +16,8 @@ class Quadrilateral extends Figure {
         this.c = c;
         this.d = d;
     }
-    double length(Point A, Point B) {
-        return sqrt(pow(B.getX()-A.getX(),2)+pow(B.getY()-A.getY(),2));
+    double length(Point a, Point b) {
+        return sqrt(pow(b.getX()-a.getX(),2)+pow(b.getY()-a.getY(),2));
     }
 
     public double areaOfTriangle(Point a,Point b, Point c){
